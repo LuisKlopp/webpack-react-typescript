@@ -1,4 +1,9 @@
-const App = () => {
-  return <div>Hello</div>;
+import './App.css';
+
+export const App = () => {
+  return (
+    <div className='app'>
+      <div>hello</div>
+    </div>
+  );
 };
-export default App;
